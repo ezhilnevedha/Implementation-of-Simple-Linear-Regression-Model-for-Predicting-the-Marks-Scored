@@ -9,17 +9,17 @@ To write a program to predict the marks scored by a student using the simple lin
  
 ## Algorithm:
 
-1.Import necessary libraries: pandas, numpy, matplotlib, and scikit-learn.
-2.Load the dataset student_scores.csv into a DataFrame and print it to verify contents.
-3.Display the first and last few rows of the DataFrame to inspect the data structure.
-4.Extract the independent variable (x) and dependent variable (y) as arrays from the DataFrame.
-5.Split the data into training and testing sets, with one-third used for testing and a fixed random_state for reproducibility.
-6.Create and train a linear regression model using the training data.
-7.Make predictions on the test data and print both the predicted and actual values for comparison.
-8.Plot the training data as a scatter plot and overlay the fitted regression line to visualize the model's fit.
-9.Plot the test data as a scatter plot with the regression line to show model performance on unseen data.
-10.Calculate and print error metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) for evaluating model accuracy.
-11.Display the plots to visually assess the regression results.
+1.Import necessary libraries: pandas, numpy, matplotlib, and scikit-learn.             
+2.Load the dataset student_scores.csv into a DataFrame and print it to verify contents.             
+3.Display the first and last few rows of the DataFrame to inspect the data structure.                  
+4.Extract the independent variable (x) and dependent variable (y) as arrays from the DataFrame.             
+5.Split the data into training and testing sets, with one-third used for testing and a fixed random_state for reproducibility.     
+6.Create and train a linear regression model using the training data.         
+7.Make predictions on the test data and print both the predicted and actual values for comparison.          
+8.Plot the training data as a scatter plot and overlay the fitted regression line to visualize the model's fit.           
+9.Plot the test data as a scatter plot with the regression line to show model performance on unseen data.              
+10.Calculate and print error metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) for evaluating model accuracy.                
+11.Display the plots to visually assess the regression results.             
 
 ## Program:
 ```
